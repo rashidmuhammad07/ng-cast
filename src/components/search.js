@@ -3,7 +3,8 @@ angular.module('video-player')
 .component('search', {
   bindings: {
     result: '<',
-    input: '<'
+    input: '<',
+    liveSearch: '<'
   },
   controller: function() {
   },

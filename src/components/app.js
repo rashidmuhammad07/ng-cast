@@ -17,6 +17,10 @@ angular.module('video-player')
       this.videos = results;
       this.currentVideo = results[0];
     };
+    this.liveSearch = (input) => {
+      this.search(input);
+    };
+    // this.debouncedSearch = _.debounce(this.search, 500);
   },
   templateUrl: 'src/templates/app.html'
 });
